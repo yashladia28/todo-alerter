@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="Todo.css">
+</head>
+<body>
+    <h1>We got you Mr./Mrs. Laid Back!</h1>
+    <input id = "taskInput" placeholder="Enter Title of Task"/>
+    <input id = "schedD" type="date"/>
+    <input id = "schedT" type="time"/>
+    <button onclick="addtask()">Add</button>
+    <h3>Scheduled Tasks</h3>
+    <!-- <ul id= "taskList"></ul> -->
+    <table id = taskTable style = "width:100%" border="1px solid black">
+        <tr>
+            <th>Task ID</th>
+            <th>Logged On</th>
+            <th>Task Name</th>
+            <th>Scheduled On</th>
+        </tr>
+    </table>
+    <script src="Todo.js"></script>
+</body>
+</html>
